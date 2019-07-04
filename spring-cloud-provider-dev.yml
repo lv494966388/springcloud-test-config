@@ -1,14 +1,7 @@
 server:
   port: 8764
   
-spring:   
-  datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost/lwb?useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: root
-mybatis:
-  mapper-locations: mapper/*.xml
+
 
 
 eureka:
